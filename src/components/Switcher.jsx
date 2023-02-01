@@ -18,7 +18,7 @@ export default function Switcher() {
     <>
       {colorTheme === "light" ? (
         <BsSun
-          style={{ color: "#4f67e1" }}
+          style={{ color: "white" }}
           checked={darkSide}
           onClick={toggleDarkMode}
           size={30}
