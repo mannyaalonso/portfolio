@@ -10,30 +10,6 @@ const projects = [
     githubUrl: "https://github.com/mannyaalonso/modern-battleship",
     liveUrl: "http://modern-battleship.surge.sh/",
   },
-  {
-    name: "Sorting Visualizer",
-    role: "React | Javascript | CSS",
-    imageUrl: project1,
-    bio: "Visualize different algorithms with this project built in React.",
-    githubUrl: "https://github.com/mannyaalonso/modern-battleship",
-    liveUrl: "http://modern-battleship.surge.sh/",
-  },
-  {
-    name: "LinkedIn Assesment Quiz",
-    role: "React | Javascript | Tailwind CSS",
-    imageUrl: project1,
-    bio: "LinkedIn Skill Assesments are a big deal for recruiters (apparently) so I built this quiz for people to use and study for.",
-    githubUrl: "https://github.com/mannyaalonso/modern-battleship",
-    liveUrl: "http://modern-battleship.surge.sh/",
-  },
-  {
-    name: "Movie Review API",
-    role: "React | Javascript | CSS | Mongo DB",
-    imageUrl: project1,
-    bio: "Watching movies are one of my favorite things to do, here is an app that fetches data from an extarnal API.",
-    githubUrl: "https://github.com/mannyaalonso/modern-battleship",
-    liveUrl: "http://modern-battleship.surge.sh/",
-  },
 ]
 
 export default function Projects() {
