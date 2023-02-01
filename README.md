@@ -1,4 +1,4 @@
-# Potfolio
+# Portfolio
 
 ## Date: 2/1/2023
 
