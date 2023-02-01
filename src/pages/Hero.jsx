@@ -48,12 +48,8 @@ export default function Hero() {
         </svg>
       </div>
       <div className="px-6 pt-6 lg:px-8">
-        <nav
-          className="flex items-center justify-between"
-          aria-label="Global"
-        >
+        <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
-            
             <Switcher className="-m-1.5 p-1.5 text-indigo-600" />
             {/* <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Manuel Alonso</span>
@@ -124,7 +120,7 @@ export default function Hero() {
       <main>
         <div className="relative px-6 lg:px-8">
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-            <div className="hidden sm:mb-8 sm:flex sm:justify-center">
+            <div className="mb-8 flex justify-center">
               <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 <p className="font-semibold text-indigo-600 dark:text-slate-200">
                   <span className="absolute inset-0" aria-hidden="true" />
@@ -140,7 +136,7 @@ export default function Hero() {
                 </span>
                 , Software Engineer
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-slate-200">
+              <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-slate-200 mx-2">
                 I like to code things from scratch, and enjoy bringing ideas to
                 life in the browser.
               </p>
