@@ -55,14 +55,6 @@ export default function Contact() {
     })
   }
 
-  const onErrored = () => {
-    auth = true
-    Swal.fire({
-      icon: "error",
-      title: "Looks like Network Error",
-    })
-  }
-
   return (
     <div id={"contact"} className="relative bg-white dark:bg-slate-900">
       <div className="absolute inset-0">
@@ -184,8 +176,7 @@ export default function Contact() {
                   className="py-3"
                   sitekey={SITE_KEY}
                   onChange={onChange}
-                  onExpired={onExpired}
-                  onErrored={onErrored} />
+                  onExpired={onExpired} />
                 <button
                   type="submit"
                   className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
