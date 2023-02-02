@@ -4,11 +4,6 @@ import React, { useRef } from "react"
 import Swal from "sweetalert2"
 import ReCAPTCHA from "react-google-recaptcha"
 
-const SERVICE_ID = "service_95qc8id"
-const TEMPLATE_ID = "template_p1ls2mr"
-const PUBLIC_KEY = "FyhKPbcFg8x0vrOac"
-const SITE_KEY = "6LcelEAkAAAAAE4muXVj6aFR8Rxqs5kHS3GJgU7F"
-
 export default function Contact() {
   const form = useRef()
   let auth = false
@@ -17,23 +12,30 @@ export default function Contact() {
     e.preventDefault()
 
     if (auth) {
-      emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY).then(
-        (result) => {
-          console.log(result.text)
-          Swal.fire({
-            icon: "success",
-            title: "Message Sent Successfully",
-          })
-        },
-        (error) => {
-          console.log(error.text)
-          Swal.fire({
-            icon: "error",
-            title: "Ooops, something went wrong",
-            text: error.text,
-          })
-        }
-      )
+      emailjs
+        .sendForm(
+          process.env.REACT_APP_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
+          form.current,
+          process.env.REACT_APP_PUBLIC_KEY
+        )
+        .then(
+          (result) => {
+            console.log(result.text)
+            Swal.fire({
+              icon: "success",
+              title: "Message Sent Successfully",
+            })
+          },
+          (error) => {
+            console.log(error.text)
+            Swal.fire({
+              icon: "error",
+              title: "Ooops, something went wrong",
+              text: error.text,
+            })
+          }
+        )
       e.target.reset()
     } else {
       Swal.fire({
@@ -174,9 +176,10 @@ export default function Contact() {
               <div>
                 <ReCAPTCHA
                   className="py-3"
-                  sitekey={SITE_KEY}
+                  sitekey={process.env.REACT_APP_SITE_KEY}
                   onChange={onChange}
-                  onExpired={onExpired} />
+                  onExpired={onExpired}
+                />
                 <button
                   type="submit"
                   className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-6 text-base font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
