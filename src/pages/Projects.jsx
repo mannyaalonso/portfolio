@@ -32,8 +32,6 @@ export default function Projects() {
               {projects.map((project) => (
                 <motion.li
                   whileHover={{ scale: 1.02 }}
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
                   key={project.name}
                 >
                   <div className="space-y-4">

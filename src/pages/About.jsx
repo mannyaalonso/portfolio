@@ -96,7 +96,7 @@ export default function About() {
             <div className="mt-6 space-y-6 text-gray-500 dark:text-slate-200">
               <p className="text-lg">
                 I remember my first line of code,{" "}
-                <span className="font-source text-md text-indigo-400">print('Hello World')</span>, I don't think I'll ever
+                <span className="font-source text-md text-indigo-600">print('Hello World')</span>, I don't think I'll ever
                 forget that feeling of creating something inside a console. Fast
                 forward to today, and I've migrated from the console to
                 full-fledged frontend applications.
