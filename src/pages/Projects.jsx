@@ -29,10 +29,7 @@ export default function Projects() {
           <div className="lg:col-span-2">
             <ul className="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8">
               {projects.map((project) => (
-                <motion.li
-                  whileHover={{ scale: 1.02 }}
-                  key={project.name}
-                >
+                <motion.li whileHover={{ scale: 1.02 }} key={project.name}>
                   <div className="space-y-4">
                     <div className="aspect-w-3 aspect-h-2">
                       <img
