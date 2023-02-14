@@ -1,14 +1,23 @@
 import { motion } from "framer-motion"
 import project1 from '../assets/project1.gif'
+import project2 from '../assets/project2.gif'
 
 const projects = [
   {
     name: "Modern Battleship",
     role: "Javascript | HTML 5 | CSS",
     imageUrl: project1,
-    bio: "The intense war game, built for web browsers with vanilla JS, enjoy on all screens!",
+    bio: "The intense war game, built for web browsers with vanilla JS, responsive on all screens!",
     githubUrl: "https://github.com/mannyaalonso/modern-battleship",
     liveUrl: "http://modern-battleship.surge.sh/",
+  },
+  {
+    name: "LinkedIn Skill Assessments",
+    role: "React | MongoDB | Express | CSS",
+    imageUrl: project2,
+    bio: "A quiz app that has the exact bank of questions from LinkedIn skill assessments.",
+    githubUrl: "https://github.com/mannyaalonso/linkedin-skill-assessments",
+    liveUrl: "",
   },
 ]
 
