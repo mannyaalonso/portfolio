@@ -150,7 +150,7 @@ export default function Hero() {
                   LinkedIn
                 </a>
                 <a
-                  href="/files/Resume-2023.png"
+                  href="/files/MANUEL_ALONSO_RESUME_2023.png"
                   download
                   className="text-base font-semibold leading-7 text-gray-900 dark:text-slate-100 hover:text-indigo-500 dark:hover:text-indigo-500"
                 >
