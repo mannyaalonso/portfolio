@@ -17,7 +17,7 @@ const projects = [
     imageUrl: project2,
     bio: "A quiz app that has the exact bank of questions from LinkedIn skill assessments.",
     githubUrl: "https://github.com/mannyaalonso/linkedin-skill-assessments",
-    liveUrl: "https://github.com/mannyaalonso/linkedin-skill-assessments",
+    liveUrl: "https://linked-assessments.herokuapp.com/",
   },
 ]
 
