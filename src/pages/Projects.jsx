@@ -41,7 +41,7 @@ export default function Projects() {
             </h2>
             <p className="text-xl text-gray-500 dark:text-slate-200">
               Here are some recent projects I've made with different languages
-              and technologies. (more coming soon...)
+              and technologies. Made for mobile and desktop. Give the servers a couple seconds to boot-up.
             </p>
           </div>
           <div className="lg:col-span-2">
