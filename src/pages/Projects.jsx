@@ -2,8 +2,17 @@ import { motion } from "framer-motion"
 import project1 from '../assets/project1.gif'
 import project2 from '../assets/project2.gif'
 import project3 from '../assets/project3.gif'
+import project4 from '../assets/project4.gif'
 
 const projects = [
+  {
+    name: "Swish Sesh",
+    role: "React | MongoDB | Express | Tailwind | GoogleAuth | Stripe",
+    imageUrl: project4,
+    bio: "Basketball meetups for local startup in Gerogia",
+    githubUrl: "https://github.com/mannyaalonso/swish-sesh",
+    liveUrl: "https://swish-sesh.herokuapp.com/",
+  },
   {
     name: "Coaster",
     role: "React | MongoDB | Express | Tailwind",
