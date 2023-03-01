@@ -3,24 +3,25 @@ import { Dialog } from "@headlessui/react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
 import Switcher from '../components/Switcher'
 
-const navigation = [
-  { name: "Home", id: "#home" },
-  { name: "About", id: "#about" },
-  { name: "Projects", id: "#projects" },
-  { name: "Skills", id: "#skills" },
-  { name: "Contact", id: "#contact" },
-]
 
-const handleClick = (id) => {
-  const section = document.querySelector(id)
-  section.scrollIntoView({ behavior: "smooth", block: "start" })
+
+const handleClick = (ref) => {
+  ref.current.scrollIntoView()
 }
 
-export default function Hero() {
+export default function Hero({ heroRef }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+  // const navigation = [
+  //   { name: "Home", id: "" },
+  //   { name: "About", id: "" },
+  //   { name: "Projects", id: "" },
+  //   { name: "Skills", id: "" },
+  //   { name: "Contact", id: "" },
+  // ]
+
   return (
-    <div id={"home"} className="isolate bg-white dark:bg-slate-700">
+    <div ref={heroRef} className="isolate bg-white dark:bg-slate-700">
       <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
         <svg
           className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -50,7 +51,7 @@ export default function Hero() {
       <div className="px-6 pt-6 lg:px-8">
         <nav className="flex items-center justify-between" aria-label="Global">
           <div className="flex lg:flex-1">
-            <Switcher className="-m-1.5 p-1.5 text-indigo-600" />
+            {/* <Switcher className="-m-1.5 p-1.5 text-indigo-600" /> */}
             {/* <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Manuel Alonso</span>
               LOGO HERE WITH IMG
@@ -63,10 +64,10 @@ export default function Hero() {
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+              {/* <Bars3Icon className="h-6 w-6" aria-hidden="true" /> */}
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12">
+          {/* <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <button
                 key={item.name}
@@ -76,7 +77,7 @@ export default function Hero() {
                 {item.name}
               </button>
             ))}
-          </div>
+          </div> */}
           <div className="hidden lg:flex lg:flex-1 lg:justify-end"></div>
         </nav>
         <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -100,7 +101,7 @@ export default function Hero() {
             </div>
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10 ">
-                <div className="space-y-2 py-6">
+                {/* <div className="space-y-2 py-6">
                   {navigation.map((item) => (
                     <button
                       key={item.name}
@@ -110,7 +111,7 @@ export default function Hero() {
                       {item.name}
                     </button>
                   ))}
-                </div>
+                </div> */}
                 <div className="py-6"></div>
               </div>
             </div>

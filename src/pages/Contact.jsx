@@ -4,7 +4,7 @@ import React, { useRef } from "react"
 import Swal from "sweetalert2"
 import ReCAPTCHA from "react-google-recaptcha"
 
-export default function Contact() {
+export default function Contact({ contactRef }) {
   const form = useRef()
   let auth = false
 
@@ -58,7 +58,7 @@ export default function Contact() {
   }
 
   return (
-    <div id={"contact"} className="relative bg-white dark:bg-slate-900">
+    <div ref={contactRef} className="relative bg-white dark:bg-slate-900">
       <div className="absolute inset-0">
         <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50 dark:bg-slate-900" />
       </div>

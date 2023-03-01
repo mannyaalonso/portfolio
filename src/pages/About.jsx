@@ -1,9 +1,9 @@
 import { motion } from "framer-motion"
 
-export default function About() {
+export default function About({ aboutRef }) {
   return (
     <div
-      id={"about"}
+      ref={aboutRef}
       className="relative bg-white py-16 sm:py-24 dark:bg-slate-900"
     >
       <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2 lg:items-start lg:gap-24 lg:px-8">
