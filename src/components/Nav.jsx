@@ -17,7 +17,7 @@ const Nav = ({ heroRef, aboutRef, projectsRef, skillsRef, contactRef }) => {
   return (
     <Disclosure
       as="nav"
-      className="bg-white shadow flex fixed top-0 z-50 w-full dark:bg-slate-900"
+      className="bg-white shadow flex fixed top-0 z-50 w-full dark:bg-slate-900 "
     >
       {({ open }) => (
         <>
