@@ -1,13 +1,6 @@
 import { useState } from "react"
 import { Dialog } from "@headlessui/react"
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
-import Switcher from '../components/Switcher'
-
-
-
-const handleClick = (ref) => {
-  ref.current.scrollIntoView()
-}
+import { XMarkIcon } from "@heroicons/react/24/outline"
 
 export default function Hero({ heroRef }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -149,6 +142,14 @@ export default function Hero({ heroRef }) {
                   className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   LinkedIn
+                </a>
+                <a
+                  href="https://github.com/mannyaalonso"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  Github
                 </a>
                 <a
                   href="/files/MANUEL_ALONSO_RESUME_2023.png"
