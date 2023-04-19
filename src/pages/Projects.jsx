@@ -20,9 +20,9 @@ const projects = [
     name: "Spark",
     role: "React and React Native | Python | Flask | MongoDB | Google Firebase",
     imageUrl: project7,
-    bio: "Utilizes Yahoo Finance API to provide real-time updates on stock prices",
+    bio: "Light up your love life with Spark-the dating app that creates meaningful connections.",
     githubUrl: "https://github.com/mannyaalonso/spark-client",
-    liveUrl: "https://github.com/mannyaalonso/spark-client",
+    liveUrl: "https://github.com/mannyaalonso/spark-api",
   },
   {
     name: "Thredz",
