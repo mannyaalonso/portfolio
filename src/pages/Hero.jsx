@@ -151,13 +151,13 @@ export default function Hero({ heroRef }) {
                 >
                   Github
                 </a>
-                <a
+                {/* <a
                   href="/files/MANUEL_ALONSO_RESUME_2023.png"
                   download
                   className="text-base font-semibold leading-7 text-gray-900 dark:text-slate-100 hover:text-indigo-500 dark:hover:text-indigo-500"
                 >
                   Download CV <span aria-hidden="true">→</span>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

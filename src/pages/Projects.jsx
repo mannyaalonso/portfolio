@@ -3,13 +3,40 @@ import project1 from '../assets/project1.gif'
 import project2 from '../assets/project2.gif'
 import project3 from '../assets/project3.gif'
 import project4 from '../assets/project4.gif'
+import project5 from '../assets/project5.gif'
+import project6 from '../assets/project6.gif'
+import project7 from '../assets/project7.gif'
 
 const projects = [
+  {
+    name: "Stockwise",
+    role: "React | SQL | Express | Tailwind | ChatGPT | ChartJS",
+    imageUrl: project5,
+    bio: "Utilizes Yahoo Finance API to provide real-time updates on stock prices and ChatGPT",
+    githubUrl: "https://github.com/mannyaalonso/stockwise",
+    liveUrl: "https://stockwise-fe.netlify.app/",
+  },
+  {
+    name: "Spark",
+    role: "React and React Native | Python | Flask | MongoDB | Google Firebase",
+    imageUrl: project7,
+    bio: "Utilizes Yahoo Finance API to provide real-time updates on stock prices",
+    githubUrl: "https://github.com/mannyaalonso/spark-client",
+    liveUrl: "https://github.com/mannyaalonso/spark-client",
+  },
+  {
+    name: "Thredz",
+    role: "React | SQL | Express | Tailwind | Firebase",
+    imageUrl: project6,
+    bio: "Ecommerce online hub that allows users to mimic a social marketplace",
+    githubUrl: "https://github.com/fcaione/ecommerce-frontend",
+    liveUrl: "https://thredz.netlify.app/",
+  },
   {
     name: "Swish Sesh",
     role: "React | MongoDB | Express | Tailwind | GoogleAuth | Stripe",
     imageUrl: project4,
-    bio: "Basketball meetups for local startup in Gerogia",
+    bio: "Basketball meetups for a local startup in Georgia",
     githubUrl: "https://github.com/mannyaalonso/swish-sesh",
     liveUrl: "https://swish-sesh.herokuapp.com/",
   },

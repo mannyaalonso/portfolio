@@ -117,12 +117,12 @@ export default function About({ aboutRef }) {
             </div>
             <div className="mt-10">
               <a
-                href="https://twitter.com/mannyaalonso"
+                href="https://github.com/mannyaalonso"
                 target="_blank"
                 rel="noreferrer"
                 className="text-base font-medium text-indigo-600 dark:hover:text-slate-100"
               >
-                Follow me on Twitter
+                Visit my Github
                 <span aria-hidden="true"> &rarr;</span>
               </a>
             </div>
