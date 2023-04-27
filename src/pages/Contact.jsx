@@ -87,7 +87,7 @@ export default function Contact({ contactRef }) {
                     aria-hidden="true"
                   />
                   <a href="tel:4075019909">
-                    <span className="ml-3 text-indigo-600">
+                    <span className="ml-3 text-indigo-600 hover:text-white">
                       +1 (407) 501-9909
                     </span>
                   </a>
@@ -101,7 +101,7 @@ export default function Contact({ contactRef }) {
                     aria-hidden="true"
                   />
                   <a href="mailto:mannyaalonso@gmail.com">
-                    <span className="ml-3 text-indigo-600">
+                    <span className="ml-3 text-indigo-600 hover:text-white">
                       mannyaalonso@gmail.com
                     </span>
                   </a>

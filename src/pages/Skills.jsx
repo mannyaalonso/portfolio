@@ -17,35 +17,35 @@ export default function Skills({ skillsRef }) {
         <div className="mt-8 flow-root lg:mt-10">
           <div className="-mt-4 -ml-8 flex flex-wrap justify-between lg:-ml-4">
             <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0 flex-col items-center">
-              <FaReact className="h-12 text-slate-300 text-5xl" />
+              <FaReact className="h-12 text-slate-100 text-5xl" />
               <p className="text-slate-200">React</p>
             </div>
             <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0 flex-col items-center">
-              <SiJavascript className="h-12 text-slate-300 text-5xl" />
+              <SiJavascript className="h-12 text-slate-100 text-5xl" />
               <p className="text-slate-200">Javascript</p>
             </div>
             <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0 flex-col items-center">
-              <AiFillHtml5 className="h-12 text-slate-300 text-5xl" />
+              <AiFillHtml5 className="h-12 text-slate-100 text-5xl" />
               <p className="text-slate-200">Html</p>
             </div>
             <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0 flex-col items-center">
-              <SiCsswizardry className="h-12 text-slate-300 text-5xl" />
+              <SiCsswizardry className="h-12 text-slate-100 text-5xl" />
               <p className="text-slate-200">CSS</p>
             </div>
             <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0 flex-col items-center">
-              <SiTailwindcss className="h-12 text-slate-300 text-5xl" />
+              <SiTailwindcss className="h-12 text-slate-100 text-5xl" />
               <p className="text-slate-200">Tailwind</p>
             </div>
             <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0 flex-col items-center">
-              <SiNodedotjs className="h-12 text-slate-300 text-5xl" />
+              <SiNodedotjs className="h-12 text-slate-100 text-5xl" />
               <p className="text-slate-200">Node</p>
             </div>
             <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0 flex-col items-center">
-              <DiMongodb className="h-12 text-slate-300 text-5xl" />
+              <DiMongodb className="h-12 text-slate-100 text-5xl" />
               <p className="text-slate-200">MongoDB</p>
             </div>
             <div className="mt-4 ml-8 flex flex-shrink-0 flex-grow lg:ml-4 lg:flex-grow-0 flex-col items-center">
-              <GrMysql className="h-12 text-slate-300 text-5xl" />
+              <GrMysql className="h-12 text-slate-100 text-5xl" />
               <p className="text-slate-200">MySQL</p>
             </div>
           </div>
