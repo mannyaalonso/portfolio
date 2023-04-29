@@ -144,7 +144,7 @@ export default function Hero({ heroRef }) {
                   className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   <div className="flex gap-3 items-center h-10">
-                    <FaLinkedin size={25} /> <p>LinkedIn</p>
+                    <FaLinkedin size={25} /> <p>LinkedIn </p>
                   </div>
                 </a>
                 <a
@@ -154,7 +154,7 @@ export default function Hero({ heroRef }) {
                   className="rounded-md bg-indigo-600 px-3.5 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:text-white hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   <div className="flex gap-3 items-center h-10">
-                    <FiGithub size={25} /> <p>Github</p>
+                    <FiGithub size={25} /> <p>Github </p>
                   </div>
                 </a>
                 {/* <a
