@@ -109,11 +109,12 @@ export default function Projects({ projectsRef }) {
                     </div>
                     <div className="space-y-1 text-lg font-medium leading-6">
                       <a
+                        className="text-black"
                         target="_blank"
                         rel="noreferrer"
                         href={project.liveUrl}
                       >
-                        <h3 className="dark:text-slate-100 hover:text-neutral-100">{project.name}</h3>
+                        <h3 className="dark:text-slate-100 hover:text-indigo-600 dark:hover:text-neutral-100">{project.name}</h3>
                       </a>
                       <p className="text-indigo-600">{project.role}</p>
                     </div>
