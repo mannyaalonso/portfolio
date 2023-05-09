@@ -1,5 +1,4 @@
 import { motion } from "framer-motion"
-import { Link } from "react-router-dom"
 import project1 from '../assets/project1.gif'
 import project2 from '../assets/project2.gif'
 import project3 from '../assets/project3.gif'
